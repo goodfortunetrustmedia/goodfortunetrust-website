@@ -31,5 +31,8 @@
     "react-helmet": "^6.1.0",
     "react-markdown": "^8.0.7",
     "react-spinners": "^0.13.8"
+  },
+  "devDependencies": {
+    "gatsby-plugin-netlify": "^5.1.0"
   }
 }
