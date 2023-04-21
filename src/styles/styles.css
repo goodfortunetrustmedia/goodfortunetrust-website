@@ -1,0 +1,31 @@
+.text-copperplate {
+  font-family: "Copperplate Gothic";
+  font-weight: bold;
+}
+
+body {
+  font-family: "Futura", "Trebuchet MS", Arial, sans-serif !important;
+  /* font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif !important; */
+}
+
+.bg-sky-blue-gradient {
+  /*background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(142, 142, 142, 0.1) 50%, rgba(0, 255, 255, 0.2) 100%);*/
+  background-image: url("../images/blue_cloth_bg_thin.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+.iframe-holder-loader {
+  background: url("../images/loading.png") center center no-repeat;
+}
+
+.header-lgradient {
+  background: linear-gradient(to right, #dbf6fd, rgba(255, 0, 0, 0.025));
+  font-weight: bold;
+}
